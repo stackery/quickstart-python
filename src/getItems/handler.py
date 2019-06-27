@@ -17,7 +17,7 @@ def handler(event, context):
     content = item['content']
     print(f'Item {item_id}: {content}')
 
-  # Create a response
+  # Return a 200 response if no errors
   response = {
     'statusCode': 200,
     'body': f'{result_count} items found'
