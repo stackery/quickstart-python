@@ -1,2 +1,2 @@
-function-id: postItem
+function-id: newItem
 template-path: ../../template.yaml
