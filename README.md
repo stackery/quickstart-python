@@ -25,7 +25,7 @@ Here is an overview of the files:
 │   │   ├── handler.py            <-- Lambda function code
 │   │   ├── package.json          <-- Python dependencies
 │   │   └── .stackery-config.yaml <-- Stackery function configuration file
-│   ├── postItem                  <-- Source code dir for postItem function
+│   ├── newItem                   <-- Source code dir for newItem function
 │   │   ├── README.md             <-- Function-specific README
 │   │   ├── handler.py            <-- Lambda function code
 │   │   ├── package.json          <-- Python dependencies

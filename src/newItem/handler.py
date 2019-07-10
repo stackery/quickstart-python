@@ -12,7 +12,7 @@ def handler(event, context):
     'content': 'This is my content' # modify content here
   }
 
-  # Write a new item to the ItemTable
+  # Write a new item to the Item table
   item_id = params.get('id')
   print(f'Adding item {item_id} to table {table_name}')
   table.put_item(Item = params, ConditionExpression='attribute_not_exists(id)') # do not overwrite existing entries

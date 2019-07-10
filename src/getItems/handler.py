@@ -7,7 +7,7 @@ def handler(event, context):
   table_name = os.environ['TABLE_NAME'] # get the table name from the automatically populated environment variables
   table = dynamodb.Table(table_name)
 
-  # Use dynamodb to get items from the ItemTable
+  # Use dynamodb to get items from the Item table
   result = table.scan()
   result_count = result['Count']
   items = result['Items']
