@@ -38,7 +38,7 @@ Resources:
         - ResourceName: getItems
       CodeUri: src/getItems
       Handler: handler.handler
-      Runtime: python3.7
+      Runtime: python3.8
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
