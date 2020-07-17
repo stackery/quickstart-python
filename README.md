@@ -1,6 +1,6 @@
 # Stackery Quickstart Python
 
-This is a simple backend API for a list app, written in Python 3.7.
+This is a simple backend API for a list app, written in Python 3.8.
 
 Follow the [Stackery Quickstart](https://docs.stackery.io/docs/quickstart/quickstart-python/) to learn to use Stackery while writing this application.
 
